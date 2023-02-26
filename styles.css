@@ -3,7 +3,6 @@ body {
   background: #f5f7fa;
   padding: 40px 0px 40px 0px;
 }
-
 h1 {
   font-weight: 700;
   font-size: 45px;
@@ -13,15 +12,13 @@ h2.job-title {
   font-weight: 700;
   font-size: 20px;
 }
-
 .wrapper {
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  height: 1400px;
+  height: 1500px;
   width: 1024px;
   margin: 0 auto;
 }
-
 .wrapper div.picture {
   padding-bottom: 40px;
   background: #fff3d2;
@@ -31,24 +28,20 @@ h2.job-title {
 /* div.aside {
  background-color: #f7f7f7;
 } */
-
 .header-secondary-left {
   color: #000000;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
 }
-
 .contact-links {
   color: #000000;
   font-size: 14px;
   line-height: 24px;
 }
-
 .bold {
   font-weight: 700;
 }
-
 .list-secondary {
   color: #bc6f73;
   font-size: 14px;
@@ -57,52 +50,45 @@ h2.job-title {
   padding-left: 0px;
   list-style-position: inside;
 }
-
 .list-secondary-item {
   color: #000000;
 }
-
 .contact-block {
   margin-top: 51px;
   margin-left: 40px;
 }
-
 .tech-skills-block {
   margin-top: 47px;
   margin-left: 40px;
 }
-
 .soft-skills-block {
   margin-top: 44px;
   margin-left: 40px;
 }
-
 .main-description {
   padding-top: 60px;
   width: 400px;
 }
-
 .job-name {
   font-weight: 700;
   font-size: 17px;
   line-height: 17px;
+  margin-bottom: 0;
 }
 /* .job-name {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
 } */
-
 .description {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
   margin-bottom: 40px;
-  width: 650px;
+  width: 600px;
   text-align: justify;
 }
-
 .list-primary {
   font-weight: 700;
   font-size: 14px;
@@ -110,7 +96,6 @@ h2.job-title {
   padding-left: 0;
   list-style-position: inside;
 }
-
 .list-primary-item {
   font-weight: 400;
   font-size: 14px;
@@ -118,14 +103,12 @@ h2.job-title {
   color: #595959;
   text-decoration: none;
 }
-
 .header-primary {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   margin-bottom: 8px;
 }
-
 .highlight {
   color: #bc6f73;
   font-weight: 700;
@@ -133,7 +116,6 @@ h2.job-title {
   line-height: 20px;
   margin-bottom: 3px;
 }
-
 .job-date {
   font-weight: 400;
   font-size: 12px;
@@ -141,7 +123,6 @@ h2.job-title {
   color: #a8a8a8;
   margin-bottom: 3px;
 }
-
 .job-list {
   font-weight: 400;
   font-size: 14px;
@@ -154,46 +135,40 @@ h2.job-title {
   width: 525px;
 }
 .duties {
-  margin-top: 8px;
+  margin-top: 0px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
 }
-
 .header-secondary {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   margin-top: 12px;
 }
-
 .education-block,
 .experience-block {
   margin-bottom: 20px;
 }
-
 .education-list {
-  height: 114px;
-  margin-top: 20px;
-  line-height: 12px;
+  margin: 10px 0;
 }
 .job-div-list {
   margin-top: 20px;
 }
-
 .study-name {
   font-weight: 700;
   font-size: 14px;
-}
-
-.study-date {
-  font-weight: 400;
-  font-size: 12px;
-  color: #a8a8a8;
   margin-bottom: 0;
 }
-
+.study-date,
+.job-date {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 0px;
+}
 img {
   margin-top: 40px;
   display: block;
@@ -204,13 +179,13 @@ img {
   width: 220px;
   object-fit: cover;
   justify-content: center;
-  border: 1px solid #bc6f73;
+  border: 2px solid #bc6f73;
 }
 div.main-content {
-  width: 700px;
-  padding: 50px 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-
 .verticalLine {
   border-left: 1px solid #686868;
 }
