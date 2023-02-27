@@ -15,15 +15,15 @@ h2.job-title {
 .wrapper {
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  height: 1500px;
+  height: 1450px;
   width: 1024px;
   margin: 0 auto;
 }
 .wrapper div.picture {
-  padding-bottom: 40px;
   background: #fff3d2;
   width: 1024px;
   margin: 0;
+  padding-bottom: 12px;
 }
 /* div.aside {
  background-color: #f7f7f7;
@@ -54,7 +54,7 @@ h2.job-title {
   color: #000000;
 }
 .contact-block {
-  margin-top: 51px;
+  margin-top: 30px;
   margin-left: 40px;
 }
 .tech-skills-block {
@@ -105,7 +105,7 @@ h2.job-title {
 }
 .header-primary {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 27px;
   margin-bottom: 8px;
 }
@@ -182,10 +182,19 @@ img {
   border: 2px solid #bc6f73;
 }
 div.main-content {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 50px;
   padding-right: 50px;
 }
 .verticalLine {
   border-left: 1px solid #686868;
+}
+
+.closure {
+  font-size: 14px;
+  font-style: italic;
+  color: #a8a8a8;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
