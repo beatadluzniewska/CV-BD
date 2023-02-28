@@ -12,10 +12,11 @@ h2.job-title {
   font-weight: 700;
   font-size: 20px;
 }
+
 .wrapper {
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  height: 1450px;
+  height: 1520px;
   width: 1024px;
   margin: 0 auto;
 }
@@ -38,6 +39,8 @@ h2.job-title {
   color: #000000;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
+  padding-left: 5px;
 }
 .bold {
   font-weight: 700;
@@ -159,7 +162,12 @@ h2.job-title {
 }
 .study-name {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.course-name {
+  font-weight: 700;
+  font-size: 18px;
   margin-bottom: 0;
 }
 .study-date,
@@ -195,6 +203,6 @@ div.main-content {
   font-style: italic;
   color: #a8a8a8;
   padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
