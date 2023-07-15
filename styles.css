@@ -1,3 +1,7 @@
+:root {
+  --primary: #ba2b00;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: #f5f7fa;
@@ -16,7 +20,7 @@ h2.job-title {
 .wrapper {
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  height: 1700px;
+  height: 1600px;
   width: 1024px;
   margin: 0 auto;
 }
@@ -46,7 +50,7 @@ h2.job-title {
   font-weight: 700;
 }
 .list-secondary {
-  color: #bc6f73;
+  color: var(--primary);
   font-size: 14px;
   line-height: 24px;
   margin-left: 0px;
@@ -113,7 +117,7 @@ h2.job-title {
   margin-bottom: 8px;
 }
 .highlight {
-  color: #bc6f73;
+  color: var(--primary);
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -187,7 +191,7 @@ img {
   width: 220px;
   object-fit: cover;
   justify-content: center;
-  border: 2px solid #bc6f73;
+  border: 2px solid var(--primary);
 }
 div.main-content {
   padding-top: 30px;
